@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+.headings{
+    text-shadow: 3px 3px 3px #a0ddff;
+}
+p{
+    font-size: 115%;
+}
+span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#skills{
+    list-style-type: upper-roman;
+}
+.footer {
+    font-size: 125%;
+}
+.flexbox-container{
+    display:flex;
+    justify-content: center;
+    text-align: left;
+}
+.flexbox-container div{
+    border: 2px solid black;
+    padding:30px;
+    margin:2px;
+    flex-basis: 3%;
+}
+.boxes{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media(max-width:768px){
+    .boxes{
+        text-align: center;
+        flex-direction:column;
+        margin:5%;
+    }
+}
+.text-centered{
+    text-align: center;
+}
